@@ -5,7 +5,7 @@ import json
 keyword_to_check = 'how to market your house cleaning business'
 # set up the request parameters
 params = {
-  'api_key': 'C4208DCF131C4A56A2DAB9EC31C28AED',
+  'api_key': '',
   'q': 'allintitle:'+keyword_to_check,
   'output': 'json',
   'gl': 'us'
