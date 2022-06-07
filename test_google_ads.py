@@ -76,11 +76,11 @@ class searchVolumePuller():
             return keywords_and_search_volume
         
 if __name__ == '__main__':
-     CLIENT_ID = '858027203927-3f0o1i5n2prq38bv6tkpbm4v0bg358tj.apps.googleusercontent.com'
-     CLIENT_SECRET = '35ef2i9MvRYlz3QRlhXBy7f-'
-     REFRESH_TOKEN = '1//03dLaBuVvaCF6CgYIARAAGAMSNwF-L9IrDx8lsKHRs7geyp14Z2Kagw5dX8L4sfdfJBHB45IqSZjiodfOIAk_xcyXzpzhFojw5eU'
-     DEVELOPER_TOKEN = 'QD5-srr9pnoeVPQYPrhVXA'
-     CLIENT_CUSTOMER_ID = '720-810-2270'
+     CLIENT_ID = ''
+     CLIENT_SECRET = ''
+     REFRESH_TOKEN = ''
+     DEVELOPER_TOKEN = ''
+     CLIENT_CUSTOMER_ID = ''
 
      keyword_list = ['SEO','Leeds','Google']
 
