@@ -1,0 +1,29 @@
+
+
+Seed keyword is entered
+
+Get results for allintitle results
+    return related questions and people also ask
+    get autosuggestions
+    Make this for both allinttle and normal search
+    2 credits
+
+    Present all results 
+        Seed Keyword - Allintitle result numb
+            All related keywords
+            Checkbox to remove keywords
+            Button - NEXT - to allintitle check non removed keywords
+                1 credit per keyword
+                ALso store related keywords - related questions - people also ask and auto suggestions for these keywords
+                ALso get Volume for keywords
+
+
+
+
+Flow
+
+Keyword put into DynamoDB with flag to process into
+    trigger when flag set to process - run lambda
+        Lambda Function
+            API call to get related keywords plus allintitle results number
+            run script that gets autocomplete questions on non allintitle keyword
